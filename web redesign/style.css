@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:black ;
+  color:#000000;
+}
+
+/* Navbar */
+.logo {
+	width: 700px;
+	height: 50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color:#000000;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0px;
+}
+
+.nav-links a {
+  text-decoration:none;
+  color:#FFFFFF;
+  font-weight: 500;
+  margin-left: auto;
+  font-size: 20px;
+}
+
+.contact-button {
+  margin-left: 20px;
+  padding: 8px 16px;
+  background-color:#474747;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 20px
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0,0.7);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 20px;
+}
+
+/* Scroll Section */
+.scroll-section {
+  padding: 40px 5%;
+  background-color: #303030;
+}
+
+.scroll-section h2 {
+  margin-bottom: 20px;
+}
+
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 10px;
+}
+
+.card {
+  min-width: 250px;
+  flex-shrink: 0;
+  height: 200px;
+  background-color: #eee;
+  border-radius: 10px;
+  scroll-snap-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1A1A1A;
+  margin-top: 40px;
+}
+
+p {
+	color:#FFFFFF
+}
+
+h2 {
+	color: #FFFFFF
+}
+
+.card {
+  position: relative;
+  min-width: 250px;
+  flex-shrink: 0;
+  height: 250px;
+  width: 150px;
+  background-color: #601616;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  scroll-snap-align: start;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.abbreviation {
+  align-self: center;
+  background-color:#000000;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #8F8F8F
+}
+
+.card-description {
+  font-size: 14px;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: normal
+}
+
+.brand-name {
+  font-size: 2.0rem;
+  font-weight: normal;
+  color:#F60000;
+  font-family: "Jockey One", sans-serif;
+  margin-right: auto
+	
+}
+
+.logo {
+	width: 60px
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+h1 {
+	color:#FFFFFF;
+}
+
+.part1 {
+	color:#F40000;
+}
+
+.part2 {
+	color: #828282;
+}
+
+.part3 {
+	color: #616161
+}
