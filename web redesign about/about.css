@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #601616 ;
+  color:#000000;
+}
+
+/* Navbar */
+.logo {
+	width: 700px;
+	height: 50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color:#000000;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin-left: 100px;
+  padding: 0px;
+}
+
+.nav-links a {
+  text-decoration:none;
+  color:#FFFFFF;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: auto;
+}
+
+.contact-button {
+  margin-left: 20px;
+  padding: 8px 16px;
+  background-color:#474747;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 20px
+}
+
+.brand-name {
+  font-size: 2.0rem;
+  font-weight: normal;
+  color:#F60000;
+  font-family: "Jockey One", sans-serif;
+  margin-right: auto;
+}
+
+.logo {
+	width: 60px
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1A1A1A;
+  margin-top: 40px;
+}
+
+p {
+	color: #FFFFFF;
+	margin: 20px;
+	padding: 5px;
+}
+
+.scroll-box {
+  width: 700px;
+  height: 500px;
+  padding: 20px;
+  margin: auto;
+  border-radius: 8px;
+  background-color: rgba(25,25,25,0.7);
+  overflow-y: auto;
+}
+
+h1 {
+	margin: auto;
+	margin-left: 500px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	color: #828282;
+}
